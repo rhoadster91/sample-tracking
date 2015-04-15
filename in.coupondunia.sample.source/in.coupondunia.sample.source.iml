@@ -3,7 +3,7 @@
   <component name="FacetManager">
     <facet type="android-gradle" name="Android-Gradle">
       <configuration>
-        <option name="GRADLE_PROJECT_PATH" value=":app" />
+        <option name="GRADLE_PROJECT_PATH" value=":in.coupondunia.sample.source" />
       </configuration>
     </facet>
     <facet type="android" name="Android">
@@ -109,8 +109,8 @@
     <orderEntry type="library" exported="" name="support-v4-22.0.0" level="project" />
     <orderEntry type="library" exported="" name="apsalar" level="project" />
     <orderEntry type="library" exported="" name="support-annotations-22.0.0" level="project" />
-    <orderEntry type="library" exported="" name="AF-Android-SDK-v2.3.1.17" level="project" />
     <orderEntry type="library" exported="" name="MobileAppTracker-3.3.3" level="project" />
+    <orderEntry type="library" exported="" name="AF-Android-SDK-v2.3.1.17" level="project" />
     <orderEntry type="library" exported="" name="appcompat-v7-22.0.0" level="project" />
   </component>
 </module>

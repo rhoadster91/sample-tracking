@@ -1,1 +1,1 @@
-include ':app', ':in.coupondunia.sample.target'
+include ':in.coupondunia.sample.source', ':in.coupondunia.sample.target'

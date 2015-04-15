@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SampleTrack.iml" filepath="$PROJECT_DIR$/SampleTrack.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/in.coupondunia.sample.source.iml" filepath="$PROJECT_DIR$/app/in.coupondunia.sample.source.iml" />
+      <module fileurl="file://$PROJECT_DIR$/in.coupondunia.sample.source/in.coupondunia.sample.source.iml" filepath="$PROJECT_DIR$/in.coupondunia.sample.source/in.coupondunia.sample.source.iml" />
       <module fileurl="file://$PROJECT_DIR$/in.coupondunia.sample.target/in.coupondunia.sample.target.iml" filepath="$PROJECT_DIR$/in.coupondunia.sample.target/in.coupondunia.sample.target.iml" />
     </modules>
   </component>
