@@ -1,4 +1,4 @@
-package in.coupondunia.sample.source;
+package in.coupondunia.sample.target;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -12,16 +12,16 @@ public class MasterInstallReceiver extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
-        switch (SourceApplication.currentBuildFlavour) {
-            case SourceApplication.BuildFlavours.APPSFLYER:
+        switch (TargetApplication.currentBuildFlavour) {
+            case TargetApplication.BuildFlavours.APPSFLYER:
                 new MultipleInstallBroadcastReceiver().onReceive(context, intent);
                 break;
 
-            case SourceApplication.BuildFlavours.APSALAR:
+            case TargetApplication.BuildFlavours.APSALAR:
                 new ApsalarReceiver().onReceive(context, intent);
                 break;
 
-            case SourceApplication.BuildFlavours.MAT:
+            case TargetApplication.BuildFlavours.MAT:
                 new Tracker().onReceive(context, intent);
                 break;
 

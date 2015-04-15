@@ -1,8 +1,8 @@
-package in.coupondunia.sample.source;
+package in.coupondunia.sample.target;
 
 import android.app.Application;
 
-public class SourceApplication extends Application {
+public class TargetApplication extends Application {
 
     public static String currentBuildFlavour;
     public static class BuildFlavours {

@@ -4,6 +4,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -11,14 +12,15 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(in.coupondunia.sample.target.R.layout.activity_main);
+        TextView tvFlavour = (TextView) findViewById(R.id.flavour);
+        tvFlavour.setText(TargetApplication.currentBuildFlavour);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+        getMenuInflater().inflate(in.coupondunia.sample.target.R.menu.menu_main, menu);
         return true;
     }
 
@@ -30,7 +32,7 @@ public class MainActivity extends ActionBarActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == in.coupondunia.sample.target.R.id.action_settings) {
             return true;
         }
 
